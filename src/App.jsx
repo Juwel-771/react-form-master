@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import SimpleForm from './component/SimpleForm/SimpleForm'
+import StatefulForm from './component/StatefulForm/StatefulForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <SimpleForm></SimpleForm>
+      {/* <SimpleForm></SimpleForm> */}
+      <StatefulForm></StatefulForm>
     </>
   )
 }
