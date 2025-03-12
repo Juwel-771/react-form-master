@@ -8,5 +8,7 @@
     3 -> unControlled element: useRef to create a reference to the element and access value by using like:
         nameRef.current.value.
     
+    4 -> Use hook to handle states and submit and error. example react hook form
+    5 -> Reusable component 
 
 */

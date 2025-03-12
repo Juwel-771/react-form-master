@@ -11,6 +11,7 @@ import RefForm2 from './component/RefForm/RefForm2'
 import RefForm3 from './component/RefForm/RefForm3'
 import RefForm4 from './component/RefForm/RefForm4'
 import RefForm5 from './component/RefForm/RefForm5'
+import HookForm from './component/HookForm/HookForm'
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
       {/* <RefForm2></RefForm2> */}
       {/* <RefForm3></RefForm3> */}
       {/* <RefForm4></RefForm4> */}
-      <RefForm5></RefForm5>
+      {/* <RefForm5></RefForm5> */}
+      <HookForm></HookForm>
     </>
   )
 }
