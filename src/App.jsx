@@ -30,8 +30,8 @@ function App() {
   //   console.log(stateData)
   // }
 
-  const handleUpdateProfile = e => {
-    console.log(e);
+  const handleUpdateProfile = data => {
+    console.log(data);
   }
 
   return (
