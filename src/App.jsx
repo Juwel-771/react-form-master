@@ -12,8 +12,27 @@ import RefForm3 from './component/RefForm/RefForm3'
 import RefForm4 from './component/RefForm/RefForm4'
 import RefForm5 from './component/RefForm/RefForm5'
 import HookForm from './component/HookForm/HookForm'
+import ReUsableForm from './component/ReUsableForm/ReUsableForm'
+import ReUsableForm2 from './component/ReUsableForm/ReUsableForm2'
+import ReUsableForm3 from './component/ReUsableForm/ReUsableForm3'
 
 function App() {
+
+  // const handleSignUpSubmit = data => {
+  //   console.log(data);
+  // };
+
+  // const handleUpdateProfile = data => {
+  //   console.log(data)
+  // }
+
+  // const handleSignUpData = stateData => {
+  //   console.log(stateData)
+  // }
+
+  const handleUpdateProfile = e => {
+    console.log(e);
+  }
 
   return (
     <>
@@ -29,7 +48,24 @@ function App() {
       {/* <RefForm3></RefForm3> */}
       {/* <RefForm4></RefForm4> */}
       {/* <RefForm5></RefForm5> */}
-      <HookForm></HookForm>
+      {/* <HookForm></HookForm> */}
+      {/* <ReUsableForm formTitle = {'Sign Now'} handleSubmit = {handleSignUpSubmit}>
+        <h2>Sign Up Form</h2>
+      </ReUsableForm>
+      <ReUsableForm formTitle = {'Profile Update'} handleSubmit = {handleUpdateProfile} submitBtn = {'Update Now'}>
+        <h2>Update Profile Form</h2>
+      </ReUsableForm> */}
+      {/* <ReUsableForm2 
+        formTitle = {"Sign Form"} 
+        handleOnSubmit = {handleSignUpData} 
+        submitBtn = {"Submit"}>
+
+      </ReUsableForm2> */}
+
+      <ReUsableForm3 formTitle = {'Profile Upload'} handleSubmit = {handleUpdateProfile} submitBtn = {'Upload Now'}>
+
+      </ReUsableForm3>
+        
     </>
   )
 }
