@@ -15,6 +15,9 @@ import HookForm from './component/HookForm/HookForm'
 import ReUsableForm from './component/ReUsableForm/ReUsableForm'
 import ReUsableForm2 from './component/ReUsableForm/ReUsableForm2'
 import ReUsableForm3 from './component/ReUsableForm/ReUsableForm3'
+import Granpa from './component/Granpa/Granpa'
+import Dad from './component/Dad/Dad'
+import Son from './component/Son/Son'
 
 function App() {
 
@@ -30,9 +33,9 @@ function App() {
   //   console.log(stateData)
   // }
 
-  const handleUpdateProfile = data => {
-    console.log(data);
-  }
+  // const handleUpdateProfile = data => {
+  //   console.log(data);
+  // }
 
   return (
     <>
@@ -62,10 +65,10 @@ function App() {
 
       </ReUsableForm2> */}
 
-      <ReUsableForm3 formTitle = {'Profile Upload'} handleSubmit = {handleUpdateProfile} submitBtn = {'Upload Now'}>
+      {/* <ReUsableForm3 formTitle = {'Profile Upload'} handleSubmit = {handleUpdateProfile} submitBtn = {'Upload Now'}>
 
-      </ReUsableForm3>
-        
+      </ReUsableForm3> */}
+      <Granpa></Granpa>
     </>
   )
 }
