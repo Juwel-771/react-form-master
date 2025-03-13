@@ -18,6 +18,8 @@ import ReUsableForm3 from './component/ReUsableForm/ReUsableForm3'
 import Granpa from './component/Granpa/Granpa'
 import Dad from './component/Dad/Dad'
 import Son from './component/Son/Son'
+import Friend from './component/Friend/Friend'
+import Aunty from './component/Aunty/Aunty'
 
 function App() {
 
@@ -69,6 +71,7 @@ function App() {
 
       </ReUsableForm3> */}
       <Granpa></Granpa>
+      <Friend></Friend>
     </>
   )
 }
